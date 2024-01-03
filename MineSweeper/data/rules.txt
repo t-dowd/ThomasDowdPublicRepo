@@ -1,0 +1,35 @@
+~ ~ ~ ~ RULES OF THE GAME ~ ~ ~ ~ ~
+The goal of the game is to not reveal a 'mine' mines are represented by the '!!!' characterIf the player reveals a (!!!) character the game will be overHowever the player can keep revealing tiles to see the full board
+The player reveals tiles using (Left Click)
+
+# # # #
+# # # #
+# 0 # #
+# # # #
+# # # #
+
+The Player will be able to tell what spaces have a mine surrounding the hidden tile as shown below:
+
+0 0 0 0
+0 1 1 1
+0 1 # 1
+0 1 1 1
+0 0 0 0
+
+The player can see that there is a mine under the hidden '#' square.
+The player could mark the supicious tileRepresented by a using(Middle Mouse Button)If the player marks the tile it will look like this:
+
+0 1 1 1
+0 1 P 1
+0 1 1 1
+0 0 0 0
+
+If the player changes their mind, they can take back a marked or flaged tile using (Middle Mouse Button)(if you dont have a middle mouse, stop using a laptop)
+
+The below player took back the flag
+0 1 1 1
+0 1 P 1
+0 1 1 1
+0 0 0 0
+
+Press any key to continue ... Press 3 to skip menu process in future

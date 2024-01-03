@@ -1,0 +1,13 @@
+~~~~~~~~~~~~~~~~~ WELCOME TO C++ MINESWEEPER ~~~~~~~~~~~~~
+
+Select the following answer choice
+
+Rules of the Game.......................(1)
+
+Credits.................................(2)
+
+Dont show me this window again..........(3)
+
+
+*NOTE: DO NOT CLICK VIA MOUSE TO OPEN THE SFML WINDOW, IT WILL RECORD THAT CLICK AND YOUR STARTING MOVE WILL BE MESSED UP* 
+                        Use the Alt+Tab shortcut to mitigate this, thank you!
