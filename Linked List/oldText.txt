@@ -1,0 +1,29 @@
+TARGET = Linked
+SRC_FILES = LinkedListTester.cpp LinkedList.cpp 
+
+# DO NOT EDIT BELOW HERE
+CXX = g++
+CFLAGS = -Wall -g -std=c++11
+OBJECTS = $(SRC_FILES:.cpp=.o)
+
+ifeq ($(shell echo "Windows"), "Windows")
+	TARGET := $(TARGET).exe 
+	DEL = del
+else
+	DEL = rm
+endif
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) -o $@ $^
+
+.cpp.o:
+	$(CXX) $(CFLAGS) -o $@ -c $<
+
+clean:
+	$(DEL) $(TARGET) $(OBJECTS)
+
+# DEPENDENCIES
+LinkedList.o: LinkedList.cpp Node.hpp LinkedList.h 
+LinkedListTester.o: Node.hpp LinkedList.cpp LinkedList.h
