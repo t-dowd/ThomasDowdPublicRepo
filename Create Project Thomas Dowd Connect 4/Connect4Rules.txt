@@ -1,0 +1,52 @@
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+		    
+			 RULES 
+
+
+To win, a player must connect 4 of the same color (x or o) in a row.
+
+Only one piece at a time.
+
+the game ends when there is a winner!
+
+X or player one will always go first.
+
+Ties or stalemates shall be resolved by whoever is taller.
+
+
+
+
+		EXAMPLE:
+
+
+
+	WIN:
+
+ 1     #    2    #    3    #    4    #    5    #    6    #    7				
+
+  _    |    _    |    _    |    _    |    _    |    _    |    _			
+  _    |    _    |    _    |    _    |    _    |    _    |    _
+  _    |    _    |    _    |    _    |    _    |    _    |    _			
+  _    |    _    |    _    |    _    |    X    |    _    |    _
+  _    |    _    |    _    |    X    |    X    |    _    |    _			
+  _    |    _    |    X    |    O    |    O    |    _    |    _
+  _    |    X    |    X    |    X    |    o    |    _    |    _
+
+
+
+	NOT A WIN:
+
+
+ 1     #    2    #    3    #    4    #    5    #    6    #    7
+
+  _    |    _    |    _    |    _    |    _    |    _    |    _
+  _    |    _    |    _    |    _    |    _    |    _    |    _
+  _    |    _    |    _    |    _    |    _    |    _    |    _
+  _    |    _    |    _    |    _    |    _    |    _    |    _
+  _    |    X    |    X    |    X    |    _    |    _    |    _
+  _    |    X    |    X    |    X    |    _    |    _    |    _
+  X    |    O    |    O    |    O    |    _    |    _    |    _
+
+
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+

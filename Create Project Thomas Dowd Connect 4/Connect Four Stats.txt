@@ -1,0 +1,8 @@
+1. Total Moves as player 1: 10
+2. Total Moves as player 2: 5
+3. Games won as Player 1: 10
+4. Games won as Player 2: 7
+5. The most common character used: X
+6. Total misplays: 0
+7. Games lost against AI: 00
+8. Total Moves: 15
