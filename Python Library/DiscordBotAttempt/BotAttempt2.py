@@ -20,4 +20,4 @@ async def on_message(message):
 
 
  
-client.run("MTA3MDE0Njc0MDYzMzczMTE1NQ.GitZGA.Z10rcSnEFyyeyuoNDIlvlfnfM1_mmZXdKmS8cA")
+client.run("<NO PEEKING>")
